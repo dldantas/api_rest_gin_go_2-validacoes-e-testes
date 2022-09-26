@@ -2,9 +2,9 @@ name: Go-ci
 
 on:
   push:
-    branches: [ "aula_2" ]
+    branches: [  ]
   pull_request:
-    branches: [ "aula_2" ]
+    branches: [  ]
 
 jobs:
 
