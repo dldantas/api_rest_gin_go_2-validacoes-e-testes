@@ -2,9 +2,9 @@ name: Go-ci
 
 on:
   push:
-    branches: [ "Aula_3" ]
+    branches: [ "aula_3" ]
   pull_request:
-    branches: [ "Aula_3" ]
+    branches: [ "aula_3" ]
 
 jobs:
 
@@ -32,6 +32,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    
+
     - name: Build
       run: go build -v main.go
